@@ -1,0 +1,29 @@
+{
+  "name": "classes_and-_inheritance",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Vyacheslav-hub/classes_and-_inheritance#readme",
+  "bugs": {
+    "url": "https://github.com/Vyacheslav-hub/classes_and-_inheritance/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vyacheslav-hub/classes_and-_inheritance.git"
+  },
+  "license": "ISC",
+  "author": "Vyacheslav",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "babel-loader": "^10.1.1"
+  },
+  "dependencies": {
+    "core-js": "^3.49.0"
+  }
+}
