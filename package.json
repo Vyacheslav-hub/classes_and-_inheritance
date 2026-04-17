@@ -15,13 +15,17 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "lint": "eslint ."
   },
   "devDependencies": {
     "@babel/cli": "^7.28.6",
     "@babel/core": "^7.29.0",
     "@babel/preset-env": "^7.29.2",
-    "babel-loader": "^10.1.1"
+    "@eslint/js": "^10.0.1",
+    "babel-loader": "^10.1.1",
+    "eslint": "^10.2.0",
+    "globals": "^17.5.0"
   },
   "dependencies": {
     "core-js": "^3.49.0"
